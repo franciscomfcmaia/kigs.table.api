@@ -20,7 +20,7 @@ Open your favorite Terminal and run these commands from your working node.js dir
 
 First Tab:
 ```sh
-$ npm install kings.table
+$ npm install
 ```
 
 ### Getting Started
