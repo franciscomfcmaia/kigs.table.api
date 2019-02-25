@@ -1,0 +1,16 @@
+{
+  "name": "kings.table",
+  "version": "1.0.0",
+  "description": "an Unofficial API for king's college london timetabing system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Maia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19"
+  }
+}
