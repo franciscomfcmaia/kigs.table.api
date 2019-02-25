@@ -1,6 +1,5 @@
 # Kings Table
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 This is an unoficial API written in node.js for King's College London timetable fetching service.
 
