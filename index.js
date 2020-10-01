@@ -9,7 +9,7 @@ exports.getTimeTable = function(user, password, options, callback){
   if(user !== null && password !== null && callback !== null && options.format !== null && options.start !== null && options.end !== null){
     var req = {
       rawBody : '<?xml version="1.0" encoding="UTF-8"?><retrieveCalendar xmlns="http://campusm.gw.com/campusm"><username>'+user+'</username><password>'+password+'</password><calType>course_timetable</calType><start>'+options.start+'</start><end>'+options.end+'</end></retrieveCalendar>',
-      url:'https://campusm.kcl.ac.uk//kcl_live/services/CampusMUniversityService/retrieveCalendar'
+      url:'https://campusm.kcl.ac.uk//kclNewTimetable/services/CampusMUniversityService/retrieveCalendar'
     }
     request.post({
       url: req.url,
